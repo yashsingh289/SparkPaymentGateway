@@ -9,8 +9,8 @@ const Footer = () => {
               <a
                 className="mx-1"
                 style={{ color: "rgb(0, 191, 255)", textDecoration: "none" }}
-                href="https://github.com/khushigit13">
-                Khushi Sahu👩‍💻
+                href="https://github.com/yashsingh289">
+                 Yash Singh Chouhan👩‍💻
               </a>
             </span>
           </p>
