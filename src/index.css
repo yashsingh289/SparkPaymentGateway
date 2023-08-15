@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.header {
+  width: 100%;
+  color: white;
+  background-color: rgb(13, 46, 64);
+  box-shadow: 0 4px 8x 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+}
+.header .btn {
+  color: white;
+  font-size: 16px;
+}
+.header .col-md-12 {
+  margin: 0.3%;
+}
+.col-lg-auto {
+  margin: 0.3%;
+}
+
+/* .closed {
+} */
+
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url("./images/homepage2.jpg");
+  background-size: cover;
+}
+.home .btn:hover {
+  background-color: rgb(13, 46, 64);
+  color: white;
+}
+
+.contact {
+  min-height: 100vh;
+  background: url("./images/conatct.jpg");
+  background-size: cover;
+  opacity: 0.9;
+}
+
+.about {
+  min-height: 100vh;
+  background: url("./images/homepage2.jpg");
+  background-size: cover;
+  opacity: 0.9;
+}
+
+.about .btn:hover {
+  background-color: rgb(13, 46, 64);
+  color: white;
+}
+
+.col-mg-auto a {
+  color: white;
+}
+
+.data1 h1,
+.data2 h1,
+.data3 h1,
+.data4 h1,
+.data5 h1 {
+  color: rgb(255, 77, 0);
+}
+
+.data1 h3,
+.data2 h3,
+.data3 h3,
+.data4 h3,
+.data5 h3 {
+  color: rgb(0, 106, 151);
+}
+.data3 .row {
+  margin: 5%;
+}
+
+.menu-icon {
+  display: none;
+}
+.closed {
+  display: none;
+}
+
+@media screen and (max-width: 500px) {
+  iframe {
+    margin-top: 5%;
+    width: 100%;
+  }
+}
+.mobile-nav {
+  display: none;
+}
+
+@media screen and (max-width: 1000px) {
+  .mobile-nav {
+    display: block;
+  }
+  .desktop-nav {
+    display: none;
+  }
+  .header .btn {
+    width: 100%;
+    align-self: center;
+  }
+  .header h2 {
+    text-align: center;
+  }
+  .header img {
+    /* display: block; */
+    /* margin-left: ; */
+    /* margin-right: auto; */
+    /* width: 20%; */
+  }
+  .menu-icon {
+    display: block;
+    margin-left: 1%;
+  }
+  .closed {
+    display: block;
+    margin-left: 1%;
+  }
+}
+
+.footer {
+  background-color: rgb(13, 46, 64);
+  color: white;
+  /* padding: 1%; */
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
